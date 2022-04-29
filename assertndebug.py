@@ -9,7 +9,7 @@ removefile="rm assertndebug.txt"
 
 assert_lineno_str=""
 debug_lineno_str=""
-command='grep -r --include="*.py" --include="*.c"  --include="*.pyi" -n -E  "( {3,}assert\w*)|(DEBUG_ASSERT\()|(\.debug\()" >> assertndebug.txt --exclude=assert_statement_agreegation.py --exclude=assertndebug.py --exclude=assertndebug-json.py --exclude="*test*.py" --exclude-dir={test,tests,testing} '
+command='grep -r --include="*.py" --include="*.c"  --include="*.pyi" -n -E  "( {3,}assert\w*)|(DEBUG_ASSERT\()|(\.debug\()" >> assertndebug.txt --exclude=assert_statement_agreegation.py --exclude=assertndebug.py --exclude=assertndebug-json.py --exclude="*test*.py" --exclude-dir={test,tests,testing,venv} '
 
 os.system(removefile)                       
 
