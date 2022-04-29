@@ -1,0 +1,78 @@
+./tools/openblas_support.py,./tools/openblas_support.py,"64","",1,0
+./tools/refguide_check.py,./tools/refguide_check.py,"1202","",1,0
+./tools/cythonize.py,./tools/cythonize.py,"58 71 72 82 83 93 94","",7,0
+./tools/npy_tempita/__init__.py,./tools/npy_tempita/__init__.py,"114 295 925 944 975 997 1005","",7,0
+./numpy/distutils/unixccompiler.py,./numpy/distutils/unixccompiler.py,"","137",0,1
+./numpy/distutils/ccompiler.py,./numpy/distutils/ccompiler.py,"","774",0,1
+./numpy/distutils/misc_util.py,./numpy/distutils/misc_util.py,"144 192 267 269 1000 1063 1170 1182 1296 1345 1504 1884","",12,0
+./numpy/distutils/system_info.py,./numpy/distutils/system_info.py,"737 1010 1023"," 924 3099",3,2
+./numpy/distutils/exec_command.py,./numpy/distutils/exec_command.py,"113"," 126 168 173 211 232 234 247",1,7
+./numpy/distutils/mingw32ccompiler.py,./numpy/distutils/mingw32ccompiler.py,"","300 306 318 399 421",0,5
+./numpy/distutils/fcompiler/__init__.py,./numpy/distutils/fcompiler/__init__.py,"245 272 294 423 592"," 683 821 823 931 932",5,5
+./numpy/distutils/command/build_ext.py,./numpy/distutils/command/build_ext.py,"","387 390",0,2
+./numpy/distutils/command/build_src.py,./numpy/distutils/command/build_src.py,"","490 546 566 713",0,4
+./numpy/distutils/command/__init__.py,./numpy/distutils/command/__init__.py,"11","",1,0
+./numpy/distutils/command/build_clib.py,./numpy/distutils/command/build_clib.py,"","247 250",0,2
+./numpy/distutils/_shell_utils.py,./numpy/distutils/_shell_utils.py,"68 71","",2,0
+./numpy/distutils/ccompiler_opt.py,./numpy/distutils/ccompiler_opt.py,"601 602 613 1053 1066 1097 1260 1281 1558 1559 1575 1596 1646 1648 1915 2511","",16,0
+./numpy/core/overrides.py,./numpy/core/overrides.py,"119","",1,0
+./numpy/core/code_generators/generate_umath.py,./numpy/core/code_generators/generate_umath.py,"86 89","",2,0
+./numpy/core/code_generators/ufunc_docstrings.py,./numpy/core/code_generators/ufunc_docstrings.py,"53 55 57","",3,0
+./numpy/core/numeric.py,./numpy/core/numeric.py,"1645 1655 1670","",3,0
+./numpy/core/_exceptions.py,./numpy/core/_exceptions.py,"27 44","",2,0
+./numpy/core/arrayprint.py,./numpy/core/arrayprint.py,"354 1447","",2,0
+./numpy/core/src/multiarray/arrayfunction_override.c,./numpy/core/src/multiarray/arrayfunction_override.c,"16 415 416","",3,0
+./numpy/core/src/multiarray/item_selection.c,./numpy/core/src/multiarray/item_selection.c,"1666 2344","",2,0
+./numpy/core/src/multiarray/buffer.c,./numpy/core/src/multiarray/buffer.c,"150 152 407 498","",4,0
+./numpy/core/src/multiarray/multiarraymodule.c,./numpy/core/src/multiarray/multiarraymodule.c,"446 491 561 596","",4,0
+./numpy/core/src/multiarray/abstractdtypes.c,./numpy/core/src/multiarray/abstractdtypes.c,"221","",1,0
+./numpy/core/src/multiarray/iterators.c,./numpy/core/src/multiarray/iterators.c,"1762","",1,0
+./numpy/core/src/multiarray/dragon4.c,./numpy/core/src/multiarray/dragon4.c,"39 42","",2,0
+./numpy/core/src/multiarray/array_coercion.c,./numpy/core/src/multiarray/array_coercion.c,"523 725 1185 1193 1304 1372 1451","",7,0
+./numpy/core/src/multiarray/methods.c,./numpy/core/src/multiarray/methods.c,"1141","",1,0
+./numpy/core/src/multiarray/dtypemeta.c,./numpy/core/src/multiarray/dtypemeta.c,"22 27 94 131 518 545","",6,0
+./numpy/core/src/multiarray/alloc.c,./numpy/core/src/multiarray/alloc.c,"15 77 263 327 425 494","",6,0
+./numpy/core/src/multiarray/common_dtype.c,./numpy/core/src/multiarray/common_dtype.c,"120","",1,0
+./numpy/core/src/multiarray/arrayobject.c,./numpy/core/src/multiarray/arrayobject.c,"256 275 1306","",3,0
+./numpy/core/src/multiarray/dtype_transfer.c,./numpy/core/src/multiarray/dtype_transfer.c,"1210 3030 3031 3064 3160 3199 3261 3517","",8,0
+./numpy/core/src/multiarray/nditer_constr.c,./numpy/core/src/multiarray/nditer_constr.c,"1984 2574","",2,0
+./numpy/core/src/multiarray/convert_datatype.c,./numpy/core/src/multiarray/convert_datatype.c,"421 424 1035 1912 2318 2369 2406 2407 2609 2610 2676 2791","",12,0
+./numpy/core/src/multiarray/descriptor.c,./numpy/core/src/multiarray/descriptor.c,"1962","",1,0
+./numpy/core/src/multiarray/ctors.c,./numpy/core/src/multiarray/ctors.c,"31 486 487 526 596 597 1696 1749 1751 1768 1791 1846 1856 1857","",14,0
+./numpy/core/src/multiarray/compiled_base.c,./numpy/core/src/multiarray/compiled_base.c,"1188","",1,0
+./numpy/core/src/multiarray/datetime.c,./numpy/core/src/multiarray/datetime.c,"45 52 59 66 568 587 3368 3784 3786 3896 3915 3956 4003 4062","",14,0
+./numpy/core/src/multiarray/textreading/rows.c,./numpy/core/src/multiarray/textreading/rows.c,"36 191 195 314 438","",5,0
+./numpy/core/src/multiarray/textreading/field_types.c,./numpy/core/src/multiarray/textreading/field_types.c,"15","",1,0
+./numpy/core/src/multiarray/textreading/growth.c,./numpy/core/src/multiarray/textreading/growth.c,"21","",1,0
+./numpy/core/src/npymath/halffloat.c,./numpy/core/src/npymath/halffloat.c,"433","",1,0
+./numpy/core/src/common/numpyos.c,./numpy/core/src/common/numpyos.c,"87","",1,0
+./numpy/core/src/common/mem_overlap.c,./numpy/core/src/common/mem_overlap.c,"195 213 214 266","",4,0
+./numpy/core/src/common/npy_hashtable.c,./numpy/core/src/common/npy_hashtable.c,"98 126 142","",3,0
+./numpy/core/src/common/cblasfuncs.c,./numpy/core/src/common/cblasfuncs.c,"16","",1,0
+./numpy/core/src/common/npy_argparse.c,./numpy/core/src/common/npy_argparse.c,"361","",1,0
+./numpy/core/src/umath/ufunc_object.c,./numpy/core/src/umath/ufunc_object.c,"1220 1238 1422 1972 2226 3583 4385","",7,0
+./numpy/core/src/umath/wrapping_array_method.c,./numpy/core/src/umath/wrapping_array_method.c,"149","",1,0
+./numpy/core/src/umath/reduction.c,./numpy/core/src/umath/reduction.c,"189 245","",2,0
+./numpy/core/src/umath/override.c,./numpy/core/src/umath/override.c,"183","",1,0
+./numpy/core/src/umath/dispatching.c,./numpy/core/src/umath/dispatching.c,"229 854 918 946 948","",5,0
+./numpy/core/src/umath/ufunc_type_resolution.c,./numpy/core/src/umath/ufunc_type_resolution.c,"1812","",1,0
+./numpy/linalg/linalg.py,./numpy/linalg/linalg.py,"2803","",1,0
+./numpy/ma/testutils.py,./numpy/ma/testutils.py,"16 35 87 89 100 104 117 121 141 195 213 225 232 237 251 265 274 285 287 288","",20,0
+./numpy/ma/core.py,./numpy/ma/core.py,"3612","",1,0
+./numpy/ma/timer_comparison.py,./numpy/ma/timer_comparison.py,"48 139 140 148 164 165 184 189 191 202 203 207 209 211 224 225 226 228 233 234 235 248 250 256 258 264 266 272 274 280 288 305 306 307 317 318 319 329 330 331 381 385 387 391 392 393 399 400 403 404 406 407 413 414 415 416 419 420 421","",59,0
+./numpy/_version.py,./numpy/_version.py,"72","",1,0
+./numpy/_pyinstaller/test_pyinstaller.py,./numpy/_pyinstaller/test_pyinstaller.py,"35","",1,0
+./numpy/f2py/crackfortran.py,./numpy/f2py/crackfortran.py,"636 677 854 1143","",4,0
+./numpy/f2py/f2py2e.py,./numpy/f2py/f2py2e.py,"576","",1,0
+./numpy/f2py/func2subr.py,./numpy/f2py/func2subr.py,"79 185","",2,0
+./numpy/f2py/symbolic.py,./numpy/f2py/symbolic.py,"163 169 170 171 175 176 177 180 184 185 187 190 193 194 198 202 204 205 206 209 211 214 217 220 593 840 1249 1323 1350 1389 1416 1498","",32,0
+./numpy/lib/nanfunctions.py,./numpy/lib/nanfunctions.py,"1204 1208 1365 1524","",4,0
+./numpy/lib/format.py,./numpy/lib/format.py,"371","",1,0
+./numpy/lib/function_base.py,./numpy/lib/function_base.py,"3785 3789 4093 4370","",4,0
+./numpy/random/_examples/cffi/extending.py,./numpy/random/_examples/cffi/extending.py,"40","",1,0
+./numpy/random/_examples/numba/extending.py,./numpy/random/_examples/numba/extending.py,"43 44","",2,0
+./numpy/random/src/mt19937/randomkit.c,./numpy/random/src/mt19937/randomkit.c,"122 424","",2,0
+./numpy/random/src/distributions/distributions.c,./numpy/random/src/distributions/distributions.c,"9 1173 1265 1301 1338","",5,0
+./doc/source/reference/simd/gen_features.py,./doc/source/reference/simd/gen_features.py,"117","",1,0
+./versioneer.py,./versioneer.py,"380 484 1414 1418 1420","",5,0
+./runtests.py,,2,0

@@ -1,0 +1,304 @@
+Location,Assertlineno,Debuglineno,AssertCount,DebugCount
+./tools/openblas_support.py,"45 64 315 317 319","",5,0
+./tools/refguide_check.py,"1202","",1,0
+./tools/cythonize.py,"58 71 72 82 83 93 94","",7,0
+./tools/npy_tempita/__init__.py,"114 270 295 925 944 975 997 1005","",8,0
+./numpy/distutils/unixccompiler.py,"","137",0,1
+./numpy/distutils/ccompiler.py,"","774",0,1
+./numpy/distutils/misc_util.py,"144 192 267 269 1000 1063 1170 1182 1296 1345 1504 1884","",12,0
+./numpy/distutils/system_info.py,"737 1010 1023"," 924 3099",3,2
+./numpy/distutils/exec_command.py,"113"," 126 168 173 211 232 234 247",1,7
+./numpy/distutils/mingw32ccompiler.py,"","300 306 318 399 421",0,5
+./numpy/distutils/fcompiler/gnu.py,"255","",1,0
+./numpy/distutils/fcompiler/intel.py,"25","",1,0
+./numpy/distutils/fcompiler/__init__.py,"245 272 294 423 592"," 683 821 823 931 932",5,5
+./numpy/distutils/command/build_ext.py,"","387 390",0,2
+./numpy/distutils/command/build_src.py,"","490 546 566 713",0,4
+./numpy/distutils/command/__init__.py,"11","",1,0
+./numpy/distutils/command/build_clib.py,"","247 250",0,2
+./numpy/distutils/_shell_utils.py,"68 71","",2,0
+./numpy/distutils/ccompiler_opt.py,"601 602 613 1053 1066 1097 1254 1260 1281 1351 1393 1427 1558 1559 1575 1596 1646 1648 1915 2511","",20,0
+./numpy/core/overrides.py,"119","",1,0
+./numpy/core/code_generators/generate_umath.py,"86 89","",2,0
+./numpy/core/code_generators/ufunc_docstrings.py,"53 55 57","",3,0
+./numpy/core/numeric.py,"1645 1655 1670","",3,0
+./numpy/core/_exceptions.py,"27 44","",2,0
+./numpy/core/arrayprint.py,"354","",1,0
+./numpy/core/src/multiarray/arrayfunction_override.c,"16 415 416","",3,0
+./numpy/core/src/multiarray/common.c,"212","",1,0
+./numpy/core/src/multiarray/item_selection.c,"1666 2344","",2,0
+./numpy/core/src/multiarray/buffer.c,"150 152 407 480 498","",5,0
+./numpy/core/src/multiarray/multiarraymodule.c,"446 491 561 596","",4,0
+./numpy/core/src/multiarray/nditer_api.c,"2051 2230 2243","",3,0
+./numpy/core/src/multiarray/abstractdtypes.c,"26 65 79 221","",4,0
+./numpy/core/src/multiarray/iterators.c,"1762","",1,0
+./numpy/core/src/multiarray/refcount.c,"78 140 351","",3,0
+./numpy/core/src/multiarray/dragon4.c,"42","",1,0
+./numpy/core/src/multiarray/array_coercion.c,"229 523 618 725 1073 1185 1188 1193 1304 1372 1451","",11,0
+./numpy/core/src/multiarray/methods.c,"1140 1141","",2,0
+./numpy/core/src/multiarray/dtypemeta.c,"27 93 94 131 518 545","",6,0
+./numpy/core/src/multiarray/alloc.c,"77 79 114 263 327 425 494","",7,0
+./numpy/core/src/multiarray/common_dtype.c,"120","",1,0
+./numpy/core/src/multiarray/arrayobject.c,"256 275 1306","",3,0
+./numpy/core/src/multiarray/dtype_transfer.c,"1121 1210 3030 3031 3064 3160 3199 3261 3273 3517","",10,0
+./numpy/core/src/multiarray/dlpack.c,"46 73","",2,0
+./numpy/core/src/multiarray/nditer_constr.c,"1984 2574","",2,0
+./numpy/core/src/multiarray/convert_datatype.c,"421 424 1035 1912 2318 2369 2406 2407 2516 2609 2610 2676 2791 3426","",14,0
+./numpy/core/src/multiarray/descriptor.c,"733 1829 1962","",3,0
+./numpy/core/src/multiarray/ctors.c,"486 487 497 520 526 596 597 1696 1749 1768 1791 1846 1856 1857","",14,0
+./numpy/core/src/multiarray/compiled_base.c,"1188","",1,0
+./numpy/core/src/multiarray/datetime.c,"45 52 59 66 568 587 2951 3368 3784 3786 3896 3915 3956 4003 4062","",15,0
+./numpy/core/src/multiarray/textreading/rows.c,"36 191 195 314 438","",5,0
+./numpy/core/src/multiarray/textreading/field_types.c,"15 51 65","",3,0
+./numpy/core/src/multiarray/textreading/growth.c,"21","",1,0
+./numpy/core/src/npymath/halffloat.c,"433","",1,0
+./numpy/core/src/common/numpyos.c,"87","",1,0
+./numpy/core/src/common/mem_overlap.c,"213 214 266","",3,0
+./numpy/core/src/common/npy_hashtable.c,"98 126 142","",3,0
+./numpy/core/src/common/npy_argparse.c,"361 397","",2,0
+./numpy/core/src/umath/legacy_array_method.c,"200 201","",2,0
+./numpy/core/src/umath/ufunc_object.c,"1220 1238 1422 1972 2226 2495 2836 3057 3474 3583 4385","",11,0
+./numpy/core/src/umath/wrapping_array_method.c,"149","",1,0
+./numpy/core/src/umath/reduction.c,"189 245","",2,0
+./numpy/core/src/umath/override.c,"183","",1,0
+./numpy/core/src/umath/dispatching.c,"229 854 918 946 948","",5,0
+./numpy/core/src/umath/ufunc_type_resolution.c,"1812","",1,0
+./numpy/linalg/linalg.py,"2803","",1,0
+./numpy/ma/timer_comparison.py,"80 98 137 139 140 148 164 165 184 189 191 202 203 207 209 211 224 225 226 228 233 234 235 248 250 256 258 264 266 272 274 280 288 305 306 307 317 318 319 329 330 331 385 387 392","",45,0
+./numpy/_version.py,"72","",1,0
+./numpy/f2py/cfuncs.py,"668","",1,0
+./numpy/f2py/crackfortran.py,"636 677 854 1143","",4,0
+./numpy/f2py/f2py2e.py,"576","",1,0
+./numpy/f2py/func2subr.py,"79 185","",2,0
+./numpy/f2py/symbolic.py,"163 169 170 171 175 176 177 180 184 185 187 190 193 194 198 202 204 205 206 209 211 214 217 220 593 840 1188 1189 1249 1323 1350 1389 1416 1498","",34,0
+./numpy/lib/format.py,"371","",1,0
+./numpy/random/_examples/cffi/extending.py,"40","",1,0
+./doc/source/conf.py,"43","",1,0
+./doc/source/reference/simd/gen_features.py,"117","",1,0
+./venv/lib/python3.9/site-packages/lizard.py,"82","",1,0
+./venv/lib/python3.9/site-packages/wheel/macosx_libfile.py,"370 387","",2,0
+./venv/lib/python3.9/site-packages/wheel/bdist_wheel.py,"287"," 428",1,1
+./venv/lib/python3.9/site-packages/wheel/vendored/packaging/tags.py," 541","177",1,1
+./venv/lib/python3.9/site-packages/pytz/tzfile.py,"31 40","",2,0
+./venv/lib/python3.9/site-packages/pytz/tzinfo.py,"392","",1,0
+./venv/lib/python3.9/site-packages/pytz/reference.py,"124","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/configuration.py,"130 154 172 348"," 215 233 244",4,3
+./venv/lib/python3.9/site-packages/pip/_internal/pyproject.py,"97 122","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/network/auth.py," 204 312","52 59 124 134 140 147 160",2,7
+./venv/lib/python3.9/site-packages/pip/_internal/network/xmlrpc.py,"39 54","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/network/download.py,"135 169","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/network/cache.py,"38","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/network/lazy_wheel.py,"54","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/cache.py,"44 50 139"," 161",3,1
+./venv/lib/python3.9/site-packages/pip/_internal/utils/logging.py,"157","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/utils/encoding.py,"31","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/utils/subprocess.py,"161 162 176 199","",4,0
+./venv/lib/python3.9/site-packages/pip/_internal/utils/filesystem.py,"24","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/utils/direct_url_helpers.py,"23 44 55 61","",4,0
+./venv/lib/python3.9/site-packages/pip/_internal/utils/temp_dir.py,"133 138"," 165 245",2,2
+./venv/lib/python3.9/site-packages/pip/_internal/utils/setuptools_build.py,"113 164 165","",3,0
+./venv/lib/python3.9/site-packages/pip/_internal/utils/urls.py,"30","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/utils/unpacking.py," 217","32 40",1,2
+./venv/lib/python3.9/site-packages/pip/_internal/models/link.py,"116 222 223"," 268",3,1
+./venv/lib/python3.9/site-packages/pip/_internal/models/direct_url.py,"60","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/cli/parser.py,"51 112 114 168 223 250 283"," 189",7,1
+./venv/lib/python3.9/site-packages/pip/_internal/cli/command_context.py,"15 25","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/cli/spinners.py,"46 85","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/cli/base_command.py,"89 168"," 172 177 187 192 205",2,5
+./venv/lib/python3.9/site-packages/pip/_internal/cli/progress_bars.py,"279","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/cli/main.py,"","67",0,1
+./venv/lib/python3.9/site-packages/pip/_internal/cli/req_command.py,"79 88 138 200 271","",5,0
+./venv/lib/python3.9/site-packages/pip/_internal/operations/install/legacy.py,"","103",0,1
+./venv/lib/python3.9/site-packages/pip/_internal/operations/install/wheel.py,"98 498 531 618"," 623",4,1
+./venv/lib/python3.9/site-packages/pip/_internal/operations/freeze.py,"159"," 168",1,1
+./venv/lib/python3.9/site-packages/pip/_internal/operations/build/wheel_legacy.py,"","80",0,1
+./venv/lib/python3.9/site-packages/pip/_internal/operations/build/wheel_editable.py,"22"," 24",1,1
+./venv/lib/python3.9/site-packages/pip/_internal/operations/build/metadata_legacy.py,"","47",0,1
+./venv/lib/python3.9/site-packages/pip/_internal/operations/build/wheel.py,"22"," 24",1,1
+./venv/lib/python3.9/site-packages/pip/_internal/operations/prepare.py,"64 338 444 465 522 565 566 595 626 627"," 406 409 426 452 574 636",10,6
+./venv/lib/python3.9/site-packages/pip/_internal/req/req_install.py,"88 103 223 304 306 346 347 348 436 443 450 506 510 555 602 603 610 630 643 659 759"," 331 564 597",21,3
+./venv/lib/python3.9/site-packages/pip/_internal/req/req_tracker.py,"37 79 95 107"," 48 58 61 102 112 118",4,6
+./venv/lib/python3.9/site-packages/pip/_internal/req/req_set.py,"45 49 98"," 162",3,1
+./venv/lib/python3.9/site-packages/pip/_internal/req/req_uninstall.py,"65 530"," 284 292 541 630",2,4
+./venv/lib/python3.9/site-packages/pip/_internal/req/__init__.py,"33","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/req/req_file.py,"177 458 470","",3,0
+./venv/lib/python3.9/site-packages/pip/_internal/req/constructors.py,"","156",0,1
+./venv/lib/python3.9/site-packages/pip/_internal/resolution/legacy/resolver.py," 131 197 324 412","94 310 417",4,3
+./venv/lib/python3.9/site-packages/pip/_internal/resolution/resolvelib/factory.py,"259 264 359 499 592 644","",6,0
+./venv/lib/python3.9/site-packages/pip/_internal/resolution/resolvelib/requirements.py,"44 59 84 91 129","",5,0
+./venv/lib/python3.9/site-packages/pip/_internal/resolution/resolvelib/resolver.py,"54 181 282","",3,0
+./venv/lib/python3.9/site-packages/pip/_internal/resolution/resolvelib/candidates.py,"55 81 269 273 277"," 266",5,1
+./venv/lib/python3.9/site-packages/pip/_internal/vcs/git.py,"214 477"," 292 510",2,2
+./venv/lib/python3.9/site-packages/pip/_internal/vcs/mercurial.py,"","152",0,1
+./venv/lib/python3.9/site-packages/pip/_internal/vcs/versioncontrol.py,"","225 241 528 688",0,4
+./venv/lib/python3.9/site-packages/pip/_internal/vcs/subversion.py,"65 169","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/locations/_distutils.py,"56 61 62","",3,0
+./venv/lib/python3.9/site-packages/pip/_internal/index/collector.py," 275","121 468 539 605",1,4
+./venv/lib/python3.9/site-packages/pip/_internal/index/package_finder.py," 346 349 351 825","70 87 229 255 294 726 765 831 932 938 948 955",4,12
+./venv/lib/python3.9/site-packages/pip/_internal/exceptions.py,"80 82 656","",3,0
+./venv/lib/python3.9/site-packages/pip/_internal/commands/download.py,"134","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/commands/search.py,"84","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/commands/install.py,"463 552 653"," 635 649 657 662 668",3,5
+./venv/lib/python3.9/site-packages/pip/_internal/commands/wheel.py,"163 164","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/wheel_builder.py,"129 130 132 137 154 242 244 245 346 360","",10,0
+./venv/lib/python3.9/site-packages/pip/_internal/metadata/pkg_resources.py,"88","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/distributions/sdist.py,"53 79 89","",3,0
+./venv/lib/python3.9/site-packages/pip/_internal/distributions/installed.py,"14","",1,0
+./venv/lib/python3.9/site-packages/pip/_internal/distributions/wheel.py,"23 24","",2,0
+./venv/lib/python3.9/site-packages/pip/_internal/self_outdated_check.py,"","186",0,1
+./venv/lib/python3.9/site-packages/pip/_internal/build_env.py,"122 196","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/packaging/tags.py,"","115",0,1
+./venv/lib/python3.9/site-packages/pip/_vendor/packaging/_musllinux.py,"130","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/packaging/markers.py,"152 226 242","",3,0
+./venv/lib/python3.9/site-packages/pip/_vendor/packaging/_manylinux.py,"146","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/msgpack/fallback.py,"373 435 619 835 836","",5,0
+./venv/lib/python3.9/site-packages/pip/_vendor/chardet/sjisprober.py,"","60",0,1
+./venv/lib/python3.9/site-packages/pip/_vendor/chardet/mbcharsetprober.py,"","65",0,1
+./venv/lib/python3.9/site-packages/pip/_vendor/chardet/universaldetector.py,"","234 271 277 282",0,4
+./venv/lib/python3.9/site-packages/pip/_vendor/chardet/eucjpprober.py,"","61",0,1
+./venv/lib/python3.9/site-packages/pip/_vendor/chardet/sbcharsetprober.py,"","125 129",0,2
+./venv/lib/python3.9/site-packages/pip/_vendor/chardet/charsetgroupprober.py,"","98 101",0,2
+./venv/lib/python3.9/site-packages/pip/_vendor/webencodings/mklabels.py,"21","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/webencodings/__init__.py,"224 231","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/pygments/style.py,"79","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/pygments/formatters/other.py,"126","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/pygments/lexer.py,"428 445 452 460 465 469 470 478 492 659 747","",11,0
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/_backport/shutil.py,"","568 596",0,2
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/_backport/sysconfig.py,"75","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/locators.py," 950","220 222 245 259 278 286 370 381 386 394 663 694 725 749 759 777 782 786 788 1085 1091 1100 1106 1231 1237 1265 1272 1281 1297 1299",1,30
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/metadata.py," 920 983","148 151 154 157 161 164 170 365",2,8
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/version.py,"34 35","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/compat.py,"625","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/index.py,"","142 171 338 390 397 441",0,6
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/manifest.py," 113 339 351","110",3,1
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/util.py,"277 363 390 537 597 644 661 837 1089 1094 1283 1291 1292 1301 1391"," 609 620 923 1056 1461",15,5
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/database.py,"","149 155 274 382 1135 1212 1243",0,7
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/markers.py,"72","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/resources.py,"","239 241",0,2
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/scripts.py,"","273 324",0,2
+./venv/lib/python3.9/site-packages/pip/_vendor/distlib/wheel.py," 399","331 563 619 767 782 887 894",1,7
+./venv/lib/python3.9/site-packages/pip/_vendor/pyparsing/core.py,"1934","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/cachecontrol/controller.py,"","103 113 118 132 137 141 147 170 178 180 186 200 208 214 222 226 227 232 264 292 298 301 303 314 327 328 338 348 366",0,29
+./venv/lib/python3.9/site-packages/pip/_vendor/requests/__init__.py,"56 66 67 68 75 80","",6,0
+./venv/lib/python3.9/site-packages/pip/_vendor/requests/_internal_utils.py,"37","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/requests/adapters.py,"446","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/filters/sanitizer.py,"831 874","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/filters/lint.py,"36 37 38 39 40 42 44 48 49 50 51 52 57 58 59 60 62 65 69 73 74 76 80 81 82 85 88 91","",28,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py,"142 181 183 192 208","",5,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py,"149","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treewalkers/etree.py,"54 125","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py,"92 104 327 328 344","",5,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treebuilders/etree.py,"225","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treebuilders/base.py,"204 216 325","",3,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/_inputstream.py,"30 71 104 327 375 423 494 514 520 541 567 583 793 866","",14,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/_ihatexml.py,"117 127","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/html5parser.py,"260 360 366 382 780 847 968 1020 1030 1679 1683 1716 1809 1878 1929 1969 1997 2036 2070 2095 2169 2236 2295 2325 2362 2525 2592","",27,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treeadapters/sax.py,"46","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/serializer.py,"225 232","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/_tokenizer.py,"1716","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/html5lib/_utils.py,"37 66","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/logging.py,"127 128"," 236 246 258",2,3
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/console.py,"1091 1817 2016 2072","",4,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/color.py,"330 333 336 339 342 458 464 469 473 485 507 510 518 521 534","",15,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/traceback.py,"243 580","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/_pick.py,"13","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/_ratio.py,"129","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/pretty.py,"172 177 472 478 480","",5,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/text.py,"762 831 848 864 999","",5,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/live.py,"65","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/syntax.py,"409","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/prompt.py,"214","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/rich/progress.py,"587","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/util/ssltransport.py,"120 142","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__init__.py,"15","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/util/retry.py,"","351 594",0,2
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/__init__.py,"","60",0,1
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/securetransport.py,"719 723 902 903 904","",5,0
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/appengine.py,"","213 230",0,2
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py," 123","52 69 73 74 75 100 103 104 105 112",1,10
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/connection.py,"56 294 330 331 447 539 546","",7,0
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py,"23 45","",2,0
+./venv/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py," 469 530 820 853 883 930 931 975 976","228 273 456 845 875 1001",9,6
+./venv/lib/python3.9/site-packages/pip/_vendor/distro.py,"631","",1,0
+./venv/lib/python3.9/site-packages/pip/_vendor/typing_extensions.py,"473 715 717 718 1111 1150","",6,0
+./venv/lib/python3.9/site-packages/smmap/mman.py,"355 379","",2,0
+./venv/lib/python3.9/site-packages/smmap/buf.py,"56 68 86","",3,0
+./venv/lib/python3.9/site-packages/smmap/util.py,"176","",1,0
+./venv/lib/python3.9/site-packages/setuptools/package_index.py,"","319 372 497 914",0,4
+./venv/lib/python3.9/site-packages/setuptools/_vendor/packaging/tags.py,"","115",0,1
+./venv/lib/python3.9/site-packages/setuptools/_vendor/packaging/_musllinux.py,"130","",1,0
+./venv/lib/python3.9/site-packages/setuptools/_vendor/packaging/markers.py,"152 226 242","",3,0
+./venv/lib/python3.9/site-packages/setuptools/_vendor/packaging/_manylinux.py,"146","",1,0
+./venv/lib/python3.9/site-packages/setuptools/_vendor/pyparsing.py,"2224","",1,0
+./venv/lib/python3.9/site-packages/setuptools/_vendor/typing_extensions.py,"473 715 717 718 1111 1150","",6,0
+./venv/lib/python3.9/site-packages/setuptools/discovery.py,"","354 375 381 400 405 406 419 425 431 465 480 495",0,12
+./venv/lib/python3.9/site-packages/setuptools/config/_validate_pyproject/formats.py,"","153 161 166",0,3
+./venv/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py,"","41 128 378",0,3
+./venv/lib/python3.9/site-packages/setuptools/installer.py,"19","",1,0
+./venv/lib/python3.9/site-packages/setuptools/glob.py,"44 114","",2,0
+./venv/lib/python3.9/site-packages/setuptools/build_meta.py,"204","",1,0
+./venv/lib/python3.9/site-packages/setuptools/command/bdist_egg.py,"","242 446",0,2
+./venv/lib/python3.9/site-packages/setuptools/command/build_ext.py,"318","",1,0
+./venv/lib/python3.9/site-packages/setuptools/command/easy_install.py,"1068"," 1254 1623 1633 1953 1957",1,5
+./venv/lib/python3.9/site-packages/setuptools/command/install_lib.py,"91","",1,0
+./venv/lib/python3.9/site-packages/setuptools/command/upload_docs.py,"176","",1,0
+./venv/lib/python3.9/site-packages/setuptools/command/install_egg_info.py,"","60",0,1
+./venv/lib/python3.9/site-packages/setuptools/command/setopt.py,"","40 50 54 64",0,4
+./venv/lib/python3.9/site-packages/setuptools/dist.py,"234 246 248 258 358","",5,0
+./venv/lib/python3.9/site-packages/setuptools/_distutils/_msvccompiler.py," 213","40 107 112 430 435 500 505",1,7
+./venv/lib/python3.9/site-packages/setuptools/_distutils/unixccompiler.py,"","202 253",0,2
+./venv/lib/python3.9/site-packages/setuptools/_distutils/filelist.py,"337 343","",2,0
+./venv/lib/python3.9/site-packages/setuptools/_distutils/ccompiler.py,"339 404 872 878 885"," 903",5,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/msvc9compiler.py," 339","228 239 242 244 249 261 562 658",1,8
+./venv/lib/python3.9/site-packages/setuptools/_distutils/archive_util.py,"","226 253",0,2
+./venv/lib/python3.9/site-packages/setuptools/_distutils/cmd.py,"","403",0,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/version.py,"221","",1,0
+./venv/lib/python3.9/site-packages/setuptools/_distutils/util.py,"","485",0,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/fancy_getopt.py,"111 241 249","",3,0
+./venv/lib/python3.9/site-packages/setuptools/_distutils/file_util.py,"","115",0,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/msvccompiler.py,"","450 529 639",0,3
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/build_ext.py,"","498",0,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/clean.py,"","55",0,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/bdist_wininst.py,"154"," 198",1,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/build_py.py,"63 371","",2,0
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/build_scripts.py,"","83",0,1
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/bdist_rpm.py,"349 372","",2,0
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/install.py,"","499 511 705",0,3
+./venv/lib/python3.9/site-packages/setuptools/_distutils/command/bdist_msi.py,"209 383","",2,0
+./venv/lib/python3.9/site-packages/setuptools/_distutils/bcppcompiler.py,"","166 301",0,2
+./venv/lib/python3.9/site-packages/setuptools/wheel.py,"49","",1,0
+./venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/tags.py,"","115",0,1
+./venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/_musllinux.py,"130","",1,0
+./venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/markers.py,"152 226 242","",3,0
+./venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/_manylinux.py,"146","",1,0
+./venv/lib/python3.9/site-packages/pkg_resources/_vendor/pyparsing.py,"2224","",1,0
+./venv/lib/python3.9/site-packages/_distutils_hack/__init__.py,"59 60","",2,0
+./venv/lib/python3.9/site-packages/gitdb/pack.py,"237 291 454 557 684 848 977 995","",8,0
+./venv/lib/python3.9/site-packages/gitdb/fun.py,"297 298 306 308 317 318 678","",7,0
+./venv/lib/python3.9/site-packages/gitdb/stream.py,"86 364","",2,0
+./venv/lib/python3.9/site-packages/gitdb/db/pack.py,"169","",1,0
+./venv/lib/python3.9/site-packages/gitdb/db/git.py,"66","",1,0
+./venv/lib/python3.9/site-packages/gitdb/base.py,"28 29 30","",3,0
+./venv/lib/python3.9/site-packages/git/cmd.py,"110"," 501 870",1,2
+./venv/lib/python3.9/site-packages/git/config.py,"239 595"," 675",2,1
+./venv/lib/python3.9/site-packages/git/remote.py,"596 608 616"," 773 774 775 787",3,4
+./venv/lib/python3.9/site-packages/git/util.py," 1005 1020","372",2,1
+./venv/lib/python3.9/site-packages/git/objects/tree.py,"171","",1,0
+./venv/lib/python3.9/site-packages/git/objects/submodule/util.py,"86 88","",2,0
+./venv/lib/python3.9/site-packages/git/objects/submodule/root.py,"211","",1,0
+./venv/lib/python3.9/site-packages/git/objects/submodule/base.py,"214 888"," 661",2,1
+./venv/lib/python3.9/site-packages/git/objects/util.py,"234 566","",2,0
+./venv/lib/python3.9/site-packages/git/objects/commit.py,"133 400","",2,0
+./venv/lib/python3.9/site-packages/git/objects/base.py,"60","",1,0
+./venv/lib/python3.9/site-packages/git/refs/log.py,"206","",1,0
+./venv/lib/python3.9/site-packages/git/refs/symbolic.py,"170","",1,0
+./venv/lib/python3.9/site-packages/git/index/fun.py,"171 197 210 256 405","",5,0
+./venv/lib/python3.9/site-packages/git/index/base.py,"655 949","",2,0
+./venv/lib/python3.9/site-packages/git/diff.py,"67 298 299 332 333","",5,0
+./venv/lib/python3.9/site-packages/git/repo/fun.py,"233 269","",2,0
+./venv/lib/python3.9/site-packages/git/repo/base.py,"485"," 641 647 1085",1,3
+./venv/lib/python3.9/site-packages/pydriller/git.py,"73"," 197 275 318",1,3
+./venv/lib/python3.9/site-packages/pydriller/utils/conf.py,"","268 271 274 277",0,4
+./venv/lib/python3.9/site-packages/pydriller/repository.py,"199","",1,0
+./venv/lib/python3.9/site-packages/pydriller/domain/commit.py,"143 249 428 669 764 895 902"," 729 739",7,2
+./versioneer.py,"380 484 1414 1416 1418 1420","",6,0
