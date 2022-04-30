@@ -21,7 +21,7 @@ Location,Assertlineno,Debuglineno,AssertCount,DebugCount
 ./numpy/core/overrides.py,"119","",1,0
 ./numpy/core/code_generators/generate_umath.py,"86 89","",2,0
 ./numpy/core/code_generators/ufunc_docstrings.py,"53 55 57","",3,0
-./numpy/core/code_generators/numpy_api.py,""," 330",0,1
+./numpy/core/code_generators/numpy_api.py,"","304 330",0,2
 ./numpy/core/numeric.py,"1645 1655 1670","",3,0
 ./numpy/core/_exceptions.py,"27 44","",2,0
 ./numpy/core/arrayprint.py,"354","",1,0
@@ -30,11 +30,11 @@ Location,Assertlineno,Debuglineno,AssertCount,DebugCount
 ./numpy/core/src/multiarray/item_selection.c,"1666 2344","",2,0
 ./numpy/core/src/multiarray/buffer.c,"150 152 407 480 498","",5,0
 ./numpy/core/src/multiarray/multiarraymodule.c,"446 491 561 596","",4,0
-./numpy/core/src/multiarray/nditer_api.c," 2051 2230 2243","",3,0
+./numpy/core/src/multiarray/nditer_api.c," 2051 2230 2243","1420",3,1
 ./numpy/core/src/multiarray/abstractdtypes.c,"26 65 79 221","",4,0
 ./numpy/core/src/multiarray/iterators.c,"1762","",1,0
 ./numpy/core/src/multiarray/refcount.c,"78 140 351","",3,0
-./numpy/core/src/multiarray/dragon4.c,"42"," 44 367 368 390 404 434 466 493 519 542 768 816 870 931 1012 1013 1047 1062 1183 1406 1422 1448 1494 1574 1656 1659 1676 1677 1862 1899 1902 1934 1935 2038 2065 2084 2118 3034",1,38
+./numpy/core/src/multiarray/dragon4.c,"42","42 44 367 368 390 404 434 466 493 519 542 768 816 870 931 1012 1013 1047 1062 1183 1406 1422 1448 1494 1574 1656 1659 1676 1677 1862 1899 1902 1934 1935 2038 2065 2084 2118 3034",1,39
 ./numpy/core/src/multiarray/array_coercion.c,"229 523 618 725 1073 1185 1188 1193 1304 1372 1451","",11,0
 ./numpy/core/src/multiarray/methods.c,"1140 1141","",2,0
 ./numpy/core/src/multiarray/dtypemeta.c,"27 93 94 131 518 545","",6,0
@@ -48,7 +48,8 @@ Location,Assertlineno,Debuglineno,AssertCount,DebugCount
 ./numpy/core/src/multiarray/descriptor.c,"733 1829 1962","",3,0
 ./numpy/core/src/multiarray/ctors.c,"486 487 497 520 526 596 597 1696 1749 1768 1791 1846 1856 1857","",14,0
 ./numpy/core/src/multiarray/compiled_base.c,"1188","",1,0
-./numpy/core/src/multiarray/nditer_pywrap.c,./numpy/core/src/multiarray/datetime.c,"45 52 59 66 568 587 2951 3368 3784 3786 3896 3915 3956 4003 4062","",15,0
+./numpy/core/src/multiarray/nditer_pywrap.c,"","1378",0,1
+./numpy/core/src/multiarray/datetime.c,"45 52 59 66 568 587 2951 3368 3784 3786 3896 3915 3956 4003 4062","",15,0
 ./numpy/core/src/multiarray/textreading/rows.c,"36 191 195 314 438","",5,0
 ./numpy/core/src/multiarray/textreading/field_types.c,"15 51 65","",3,0
 ./numpy/core/src/multiarray/textreading/growth.c,"21","",1,0
@@ -69,11 +70,13 @@ Location,Assertlineno,Debuglineno,AssertCount,DebugCount
 ./numpy/_version.py,"72","",1,0
 ./numpy/f2py/cfuncs.py,"668","",1,0
 ./numpy/f2py/crackfortran.py,"636 677 854 1143","",4,0
+./numpy/f2py/rules.py,"","604",0,1
 ./numpy/f2py/f2py2e.py,"576","",1,0
 ./numpy/f2py/func2subr.py,"79 185","",2,0
 ./numpy/f2py/symbolic.py,"163 169 170 171 175 176 177 180 184 185 187 190 193 194 198 202 204 205 206 209 211 214 217 220 593 840 1188 1189 1249 1323 1350 1389 1416 1498","",34,0
+./numpy/f2py/capi_maps.py,"","556",0,1
 ./numpy/lib/format.py,"371","",1,0
 ./numpy/random/_examples/cffi/extending.py,"40","",1,0
 ./doc/source/conf.py,"43","",1,0
 ./doc/source/reference/simd/gen_features.py,"117","",1,0
-./versioneer.py,"380 484 1414 1416 1418 1420","",6,0
+./versioneer.py," 380 484 1414 1416 1418 1420","154",6,1

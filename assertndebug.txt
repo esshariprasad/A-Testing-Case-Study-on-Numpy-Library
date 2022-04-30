@@ -362,6 +362,7 @@
 ./numpy/f2py/crackfortran.py:677:        assert reset == 0, repr(reset)
 ./numpy/f2py/crackfortran.py:854:    assert not f, repr((f, line, l))
 ./numpy/f2py/crackfortran.py:1143:            assert result is None, repr(result)
+./numpy/f2py/rules.py:604:    {  # Debugging
 ./numpy/f2py/f2py2e.py:576:    assert len(flib_flags) <= 2, repr(flib_flags)
 ./numpy/f2py/func2subr.py:79:    assert isfunction(rout)
 ./numpy/f2py/func2subr.py:185:    assert issubroutine(rout)
@@ -399,10 +400,12 @@
 ./numpy/f2py/symbolic.py:1389:                    assert op == '-'
 ./numpy/f2py/symbolic.py:1416:                    assert op == '/'
 ./numpy/f2py/symbolic.py:1498:                assert paren == 'SQUARE'
+./numpy/f2py/capi_maps.py:556:    # Debug info
 ./numpy/lib/format.py:371:    assert version is not None
 ./numpy/random/_examples/cffi/extending.py:40:    assert vals[i] == vals_cffi[i]
 ./doc/source/conf.py:43:    assert 'numpy.core._add_newdocs_scalars' not in sys.modules
 ./doc/source/reference/simd/gen_features.py:117:        assert(not rows or len(field_names) == len(rows[0]))
+./versioneer.py:154:## Debugging
 ./versioneer.py:380:    assert isinstance(commands, list)
 ./versioneer.py:484:    assert isinstance(commands, list)
 ./versioneer.py:1414:    assert cfg.VCS is not None, "please set [versioneer]VCS= in setup.cfg"

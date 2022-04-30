@@ -9,7 +9,7 @@ removefile="rm assertndebug.txt"
 
 assert_lineno_str=""
 debug_lineno_str=""
-command='grep -r --include="*.py" --include="*.c"  --include="*.pyi" -n -E  "( {3,}assert\w*)|(DEBUG_ASSERT\(.*\))|DebugPrint|(\.debug\()" >> assertndebug.txt --exclude=assert_statement_agreegation.py --exclude=assertndebug.py --exclude=assertndebug-json.py --exclude="*test*.py" --exclude-dir={test,tests,testing,venv} '
+command='grep -r --include="*.py" --include="*.c"  --include="*.pyi" -n -E  "( {3,}assert\w*)|(DEBUG_ASSERT\(.*\))|Debug|(\.debug\()" >> assertndebug.txt --exclude=assert_statement_agreegation.py --exclude=assertndebug.py --exclude=assertndebug-json.py --exclude="*test*.py" --exclude-dir={test,tests,testing,venv} '
 
 os.system(removefile)                       
 
@@ -34,7 +34,7 @@ for f in file:
             Total_asserts+=1
             Total_asserts_in_all_files+=1
             assert_lineno_str=assert_lineno_str+" "+line_no
-        elif(re.search("debug",line,re.IGNORECASE)):
+        if(re.search("debug",line,re.IGNORECASE)):
             Total_debug_statements+=1  
             Total_debug_statements_in_all_files+=1 
             debug_lineno_str=debug_lineno_str+" "+ line_no
@@ -52,7 +52,7 @@ for f in file:
 
             output.write(","+str(Total_asserts))
             output.write(","+str(Total_debug_statements)+"\n")
-       #assert and debug statement check
+        #assert and debug statement check
        #first time file is seen
         Total_asserts=0
         Total_debug_statements=0
@@ -64,7 +64,7 @@ for f in file:
             Total_asserts=1
             Total_asserts_in_all_files+=1
             assert_lineno_str=""+line_no
-        elif(re.search("debug",line)):
+        if(re.search("debug",line,re.IGNORECASE)):
             Total_debug_statements=1   
             Total_debug_statements_in_all_files+=1 
             debug_lineno_str=""+line_no 
