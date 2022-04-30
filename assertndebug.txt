@@ -100,6 +100,8 @@
 ./numpy/core/code_generators/ufunc_docstrings.py:53:            assert '$OUT_SCALAR_1' in doc, "in {}".format(name)
 ./numpy/core/code_generators/ufunc_docstrings.py:55:            assert '$OUT_SCALAR_2' in doc, "in {}".format(name)
 ./numpy/core/code_generators/ufunc_docstrings.py:57:            assert False, "Could not detect number of inputs in {}".format(name)
+./numpy/core/code_generators/numpy_api.py:304:    'NpyIter_DebugPrint':                   (261,),
+./numpy/core/code_generators/numpy_api.py:330:    'PyArray_DebugPrint':                   (285,),
 ./numpy/core/numeric.py:1645:            assert b.shape[-1] == 3
 ./numpy/core/numeric.py:1655:        assert a.shape[-1] == 3
 ./numpy/core/numeric.py:1670:            assert b.shape[-1] == 2
@@ -121,6 +123,7 @@
 ./numpy/core/src/multiarray/multiarraymodule.c:491:        assert(PyArray_DESCR(ret) == descr);
 ./numpy/core/src/multiarray/multiarraymodule.c:561:        assert(dtype == NULL);
 ./numpy/core/src/multiarray/multiarraymodule.c:596:        assert(PyArray_DESCR(ret) == descr);
+./numpy/core/src/multiarray/nditer_api.c:1420:NpyIter_DebugPrint(NpyIter *iter)
 ./numpy/core/src/multiarray/nditer_api.c:2051:                assert(0);
 ./numpy/core/src/multiarray/nditer_api.c:2230:                assert(!(op_itflags[iop] & NPY_OP_ITFLAG_USINGBUFFER));
 ./numpy/core/src/multiarray/nditer_api.c:2243:                assert(!(op_itflags[iop] & NPY_OP_ITFLAG_USINGBUFFER));
@@ -146,7 +149,6 @@
 ./numpy/core/src/multiarray/dragon4.c:768:    DEBUG_ASSERT(exponent < 8192);
 ./numpy/core/src/multiarray/dragon4.c:816:    DEBUG_ASSERT(exponent < 8192);
 ./numpy/core/src/multiarray/dragon4.c:870:    DEBUG_ASSERT(blockIdx < c_BigInt_MaxBlocks);
-./numpy/core/src/multiarray/dragon4.c:909:    DEBUG_ASSERT(!divisor->length == 0 &&
 ./numpy/core/src/multiarray/dragon4.c:931:    DEBUG_ASSERT(quotient <= 9);
 ./numpy/core/src/multiarray/dragon4.c:1012:    DEBUG_ASSERT(inLength + shiftBlocks < c_BigInt_MaxBlocks);
 ./numpy/core/src/multiarray/dragon4.c:1013:    DEBUG_ASSERT(shift != 0);
@@ -201,6 +203,8 @@
 ./numpy/core/src/multiarray/common_dtype.c:120:    assert(length >= 2);
 ./numpy/core/src/multiarray/arrayobject.c:256:        assert(cache->converted_obj == src_object);
 ./numpy/core/src/multiarray/arrayobject.c:275:        assert (ndim <= PyArray_NDIM(dest));  /* would error during discovery */
+./numpy/core/src/multiarray/arrayobject.c:495:PyArray_DebugPrint(PyArrayObject *obj)
+./numpy/core/src/multiarray/arrayobject.c:545:        PyArray_DebugPrint((PyArrayObject *)fobj->base);
 ./numpy/core/src/multiarray/arrayobject.c:1306:         *   assert np.array(l, dtype="S1") == np.array(l, dtype="O")
 ./numpy/core/src/multiarray/dtype_transfer.c:1121:    assert(PyDataType_ISNOTSWAPPED(src_dtype));
 ./numpy/core/src/multiarray/dtype_transfer.c:1210:    assert(src_dtype->type_num == NPY_UNICODE);
@@ -248,6 +252,7 @@
 ./numpy/core/src/multiarray/ctors.c:1856:    assert(ndim != 0);
 ./numpy/core/src/multiarray/ctors.c:1857:    assert(op == cache->converted_obj);
 ./numpy/core/src/multiarray/compiled_base.c:1188:    assert(order == NPY_CORDER || order == NPY_FORTRANORDER);
+./numpy/core/src/multiarray/nditer_pywrap.c:1378:        NpyIter_DebugPrint(self->iter);
 ./numpy/core/src/multiarray/datetime.c:45:    assert(unit > 0);
 ./numpy/core/src/multiarray/datetime.c:52:    assert(mod >= 0);
 ./numpy/core/src/multiarray/datetime.c:59:    assert(unit > 0);
