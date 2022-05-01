@@ -5,16 +5,23 @@
 1. Embar, Sai Shiva Hari Prasad
 2. Kola, Venkata Seshadri
 3. Nuthalapati, Sampath Babu
+gen-figure.py
+gen_data.py
+gen_data_pre.py
 
 #### Folder structure
 
 ```sh
 Repo/
-├── coverage        # Coverage Results 
-├── csv_data        # Auto-generated .csv files
-├── figures         # Auto-generated figures
-├── numpy	    # Numpy 
-├── main.py         # Generates csv_data and figures
+├── CustomFiles			# Code to generate data and figures
+├	├── gen-figure.py
+├	├── gen_data.py
+├	├── gen_data_pre.py
+├── coverage        		# Coverage Results 
+├── csv_data        		# Auto-generated .csv files
+├── figures         		# Auto-generated figures
+├── numpy	    		# Numpy 
+├── main.py         		# Generates csv_data and figures using CustomFiles
 ├── .
 ├── .
 ├── .
