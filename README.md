@@ -11,10 +11,10 @@
 ```sh
 Repo/
 ├── coverage        # Coverage Results 
-├── csv_data		# Auto-generated .csv files
+├── csv_data        # Auto-generated .csv files
 ├── figures         # Auto-generated figures
-├── numpy         	# Numpy 
-├── main.py     	# Generates csv_data and figures
+├── numpy	    # Numpy 
+├── main.py         # Generates csv_data and figures
 ├── .
 ├── .
 ├── .
