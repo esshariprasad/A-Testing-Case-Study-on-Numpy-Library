@@ -87,7 +87,7 @@ def Fig6():
 
     fig = px.bar(commit_bugs_year_wise, x = commit_bugs_year_wise["Year"], y = commit_bugs_year_wise["Issues"],
                     title="Bug issues over years",
-                    labels={'Year': 'Year', 'Issues':'Number of Commits'}, 
+                    labels={'Year': 'Year', 'Issues':'Number of Issues'}, 
                     text_auto=True, template="simple_white").update(layout=dict(title=dict(x=0.5)))
 
     fig.write_image(dir_store+"/figures/BugIssuesOverYears.jpg")
