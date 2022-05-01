@@ -5,9 +5,7 @@
 1. Embar, Sai Shiva Hari Prasad
 2. Kola, Venkata Seshadri
 3. Nuthalapati, Sampath Babu
-gen-figure.py
-gen_data.py
-gen_data_pre.py
+
 
 #### Folder structure
 
