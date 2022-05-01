@@ -14,7 +14,7 @@ def Generate_assert_aggreagationCSV():
     os.system(command)
 
     file=open("./assertstatement.txt")
-    output= open("assertstatement_aggreegation.csv", "w")
+    output= open("./csv_data/assertstatement_aggreegation.csv", "w")
     # output.write("File to show the of test files and the number of assert statements in each Test file \n")
     # output.write("========================================================================================== \n")
     output.write('Location,Assertlineno,AssertCount\n')

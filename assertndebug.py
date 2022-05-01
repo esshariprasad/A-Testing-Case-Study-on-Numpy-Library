@@ -17,7 +17,7 @@ def Generate_assertndebugCSV():
     Total_asserts_in_all_files=0
     Total_debug_statements_in_all_files=0
     file=open("./assertndebug.txt")
-    output= open("assert_debug_outputfile.csv", "w")
+    output= open("./csv_data/assert_debug_outputfile.csv", "w")
     output.write('Location,Assertlineno,Debuglineno,AssertCount,DebugCount\n')
 
     TotalTestFiles=0

@@ -412,3 +412,15 @@
 ./versioneer.py:1416:    assert handlers, "unrecognized VCS '%s'" % cfg.VCS
 ./versioneer.py:1418:    assert cfg.versionfile_source is not None, \
 ./versioneer.py:1420:    assert cfg.tag_prefix is not None, "please set versioneer.tag_prefix"
+./CustomFiles/gen-figure.py:15:    assertDebugCount = pd.read_csv(dir_store+"/csv_data/Folder_Assert_Debug_Count.csv")
+./CustomFiles/gen-figure.py:17:    fig = px.bar(assertDebugCount,x=assertDebugCount["outer_location"], 
+./CustomFiles/gen-figure.py:18:                    y = assertDebugCount["AssertCount"],
+./CustomFiles/gen-figure.py:26:# 3Q Debug
+./CustomFiles/gen-figure.py:28:    assertDebugCount = pd.read_csv(dir_store+"/csv_data/Folder_Assert_Debug_Count.csv")
+./CustomFiles/gen-figure.py:30:    fig = px.bar(assertDebugCount,x=assertDebugCount["outer_location"], 
+./CustomFiles/gen-figure.py:31:                    y = assertDebugCount["DebugCount"],
+./CustomFiles/gen-figure.py:32:                    title="Count of Debug statements in each folder in Production",
+./CustomFiles/gen-figure.py:33:                    labels={'outer_location' : 'Folder', 'DebugCount':'Count of Debug statements'}, 
+./CustomFiles/gen-figure.py:36:    fig.write_image(dir_store+"/figures/CountOfDebugStatementsInProduction.jpg")
+./CustomFiles/gen-figure.py:40:    assertCountOnFolderLevel = pd.read_csv(dir_store+"/csv_data/assertCountOnFolderLevel.csv")
+./CustomFiles/gen_data_pre.py:39:data_grouped.to_csv(dir_store+"Folder_Assert_Debug_Count.csv")
