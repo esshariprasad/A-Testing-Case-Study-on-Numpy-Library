@@ -73,7 +73,7 @@ def Fig5():
     top5.head
 
     fig = px.bar(top5, x = top5["Contributor"], y = top5["Commits"],
-                    title="Top Five Contributors in last six months",
+                    title="Top Five Contributors",
                     labels={'Contributor' : 'Contributor', 'Commits':'Number of Commits'}, 
                     text_auto=True, template="simple_white").update(layout=dict(title=dict(x=0.5)))
 
@@ -99,7 +99,7 @@ def Fig7():
     commits_year_wise.head
 
     fig = px.line(commits_year_wise, x="Year", y="Commits",
-                title="Commits over years",
+                title="Test Files over the years",
                 labels={'Year': 'Year', 'Commits':'Number of Commits'}, template="simple_white").update(layout=dict(title=dict(x=0.5)))
 
     fig.write_image(dir_store+"/figures/CommitsOverYears.jpg")

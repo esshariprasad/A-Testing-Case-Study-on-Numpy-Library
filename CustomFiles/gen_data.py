@@ -139,7 +139,7 @@ def WriteToFiles():
     # for k, v in dict_author_count.items():
     #     top_five_contributors.write("%s, %d\n" % (str(k), v))
     for k, v in sorted_d.items():
-        if top_five_count <=5:
+        if top_five_count <5:
             top_five_contributors.write("%s, %d\n" % (str(k), v))
         else:
             break
