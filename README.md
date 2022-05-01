@@ -2,8 +2,8 @@ Project-Numpy
 
 Team Members:
 
-Sampath
+Sampath Nuthalapati 
 
-Hari
+Sai Shiva Hari Prasad 
 
 Sesh
