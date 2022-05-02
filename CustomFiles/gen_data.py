@@ -32,10 +32,6 @@ def PydillerCSV():
                     dict_author_count[commit.author.name] = 0
                 dict_author_count[commit.author.name] += 1
                 
-                # full_month_name = calendar.month_name[commit.author_date.month]
-                # if str(full_month_name) not in dict_month_count:
-                #     dict_month_count[str(full_month_name)] = 0
-                # dict_month_count[str(full_month_name)] += 1
 
                 if commit.author_date.year not in dict_year_count:
                     dict_year_count[commit.author_date.year] = 0
@@ -55,7 +51,6 @@ def PydillerCSV():
                 if commit.author_date.date() not in dict[m.filename]['modified_date']:
                     dict[m.filename]['modified_date'].append(commit.author_date.date())
                 dict[m.filename]['modified_count'] += 1
-                # dict[m.filename]['file_path'] = m.new_path
                 dict[m.filename]['file_path'] = m.new_path
 
                 commit_msgs.append(commit.msg)
@@ -147,13 +142,6 @@ def WriteToFiles():
     top_five_contributors.close()
 
 
-
-    # commits_month_wise = open('commits_month_wise.csv', 'w', newline='',encoding="utf-8")
-    # writer = csv.DictWriter(commits_month_wise, fieldnames=['Month', 'Commits'])
-    # writer.writeheader()
-    # for k, v in dict_month_count.items():
-    #     commits_month_wise.write("%s, %d\n" % (str(k), v))
-    # commits_month_wise.close()
 
     commits_year_wise = open(dir_store+'/csv_data/commits_year_wise.csv', 'w', newline='',encoding="utf-8")
     writer = csv.DictWriter(commits_year_wise, fieldnames=['Year', 'Commits'])
