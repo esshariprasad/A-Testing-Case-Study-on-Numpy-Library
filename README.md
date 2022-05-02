@@ -1,8 +1,8 @@
-# Project - Numpy
-
 <h1 align="center">
 <img src="/branding/logo/primary/numpylogo.svg" width="300">
 </h1>
+
+# Project - Numpy
 
 ## Team Members
 
