@@ -48,20 +48,6 @@ def Fig3():
 
     fig.write_image(dir_store+"/figures/CountOfAssertStatements.jpg")
     
-
-
-# def Fig4():
-#     testFilesCount = pd.read_csv(dir_store+"/csv_data/TestFilecount.csv")
-#     testFilesCount.head
-
-
-#     fig = px.bar(testFilesCount,x=testFilesCount["outer_location"], y = testFilesCount["Location"],
-#                         title="Number of test files in each folder",
-#                         labels={'outer_location' : 'Folder', 'Location':'Number of Test Files'}, 
-#                         text_auto=True, template="simple_white").update(layout=dict(title=dict(x=0.5)))
-
-
-#     fig.write_image(dir_store+"/figures/NumberOfTestFiles.jpg")
     
 #Top 5 Contributers
 def Fig5():
@@ -157,7 +143,6 @@ if __name__ == '__main__':
     Fig1()
     Fig2()
     Fig3()
-    # Fig4()
     Fig5()
     Fig6()
     Fig7()
