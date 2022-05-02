@@ -52,7 +52,13 @@ Repo/
 7. `pip install -U kaleido`
 
 
-## Executing the project
+## To Build and get the Coverage the Project
+
+	`cd <project folder>`
+
+	`python runtests.py --coverage`
+
+## To Generate CSVs and Figures
 	
 	`cd <project folder>`
 	 
