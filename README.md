@@ -2,7 +2,7 @@
 
 <h1 align="center">
 <img src="/branding/logo/primary/numpylogo.svg" width="300">
-</h1><br>
+</h1>
 
 ## Team Members
 
