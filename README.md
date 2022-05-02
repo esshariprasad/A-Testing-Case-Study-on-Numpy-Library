@@ -1,5 +1,9 @@
 # Project - Numpy
 
+<h1 align="center">
+<img src="/branding/logo/primary/numpylogo.svg" width="300">
+</h1><br>
+
 ## Team Members
 
 1. Embar, Sai Shiva Hari Prasad
