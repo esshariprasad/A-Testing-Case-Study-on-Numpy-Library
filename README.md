@@ -5,7 +5,7 @@
 # Project - Numpy
 A Testing Case study on popular Numpy Repository.
 
-[ Report Download ](https://github.com/esshariprasad/numpy-private/blob/7a414f9b9f59586ee4f2e92544326d6e2a1c0c51/Numpy_Project_Report.pdf)
+[ Report Download ](https://github.com/esshariprasad/numpy-private/raw/7a414f9b9f59586ee4f2e92544326d6e2a1c0c51/Numpy_Project_Report.pdf)
 
 ## Team Members
 
