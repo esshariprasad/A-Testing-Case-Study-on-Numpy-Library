@@ -3,6 +3,7 @@
 </h1>
 
 # Project - Numpy
+A Testing Case study on popular Numpy Repository.
 
 ## Team Members
 
